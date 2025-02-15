@@ -1,0 +1,16 @@
+body {
+  padding: 10px;
+}
+
+input {
+  width: 50%;
+  margin: 5px;
+}
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+button {
+  margin-top: 20px;
+}
