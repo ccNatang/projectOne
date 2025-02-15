@@ -2,22 +2,45 @@
 <html>
 
 <head>
-	<title>Simple HTML Web Page Title</title>
+	<title>Forms</title>
   <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
-	<header>
-		<img src="images/mountain-hiker.jpg" width="500" />
-  </header>
   <main>
-    <h1>This is a simple heading created within HTML.</h1>
-    <p>This is a simple paragraph created within HTML.</p>
+    <form>
+        <div>
+          <label for="name">Name:</label>
+            <input
+              id="name"
+              type="text"
+              name="name"
+            />
+        </div>
+
+      <div>
+        <label for="email">Email:</label>
+          <input
+            id="name"
+            type="text"
+            name="name"
+          />
+      </div>
+
+      <div>
+        <label for="form-message">Your message:</label>
+        <textarea
+          id="form-message"
+          name="message"
+          autofocus="on"
+          required
+          maxlength="200"
+        ></textarea>
+      </div>
+
+      <button type="submit">Submit</button>
+    </form>
   </main>
-  <footer>
-    <p>Image Source: <a href="http://www.unsplash.com" target="_blank">Unsplash</a></p>
-  </footer>
-  <script src="script.js"></script>
 </body>
 
 </html>
